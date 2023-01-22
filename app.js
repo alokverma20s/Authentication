@@ -67,7 +67,6 @@ passport.use(new GoogleStrategy({
     }
 ));
 
-
 app.get("/", function (req, res) {
     res.render("home");
 });
